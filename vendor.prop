@@ -198,3 +198,6 @@ vendor.usb.rndis.func.name=rndis_bam
 
 # Wi-Fi
 wifi.aware.interface=wifi-aware0
+
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
