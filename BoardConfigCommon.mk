@@ -61,6 +61,9 @@ TARGET_BOOTLOADER_BOARD_NAME := atoll
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
 
+# Compression
+PRODUCT_FS_COMPRESSION := 1
+
 # Dex
 ifeq ($(HOST_OS),linux)
     WITH_DEXPREOPT ?= false
